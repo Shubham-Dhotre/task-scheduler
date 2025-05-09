@@ -200,6 +200,7 @@ function sendTaskEmail($email, $pending_tasks) {
     mail($email, $subject, $message, $headers);
 }
 
+// Minor comment to trigger PR
 
 
 ?>
